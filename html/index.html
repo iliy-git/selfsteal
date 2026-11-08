@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps & Cloud Solutions | Персональная страница</title>
+    <meta name="description" content="Инженер облачной инфраструктуры, DevOps и разработка веб-решений. Проектирование надежных и отказоустойчивых систем.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="brand">
+                <span class="brand-dot"></span>
+                <span class="brand-name">DevOps.Lab</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#about" class="nav-link">Обо мне</a>
+                <a href="#skills" class="nav-link">Стек технологий</a>
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#contacts" class="nav-link nav-cta">Связаться</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-badge">
+                    <span class="status-indicator"></span>
+                    <span>Открыт к сотрудничеству & проектам</span>
+                </div>
+                <h1 class="hero-title">
+                    Проектирование надежной <br>
+                    <span class="gradient-text">облачной инфраструктуры</span>
+                </h1>
+                <p class="hero-subtitle">
+                    DevOps-инженер и Full-Stack разработчик. Помогаю бизнесу и стартапам запускать 
+                    отказоустойчивые серверные решения, автоматизировать CI/CD и оптимизировать сетевую архитектуру.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contacts" class="btn btn-primary">Обсудить задачу</a>
+                    <a href="#services" class="btn btn-secondary">Посмотреть услуги</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Опыт и подход</h2>
+                    <p class="section-desc">Строю инфраструктуру, которая работает стабильно и масштабируется без простоев</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-num">99.98%</div>
+                        <div class="stat-label">Целевой аптайм серверов</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num">5+ лет</div>
+                        <div class="stat-label">Опыта в администрировании Linux</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num">24/7</div>
+                        <div class="stat-label">Мониторинг и защита сервисов</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Технологический стек</h2>
+                    <p class="section-desc">Проверенные инструменты для сборки, развертывания и поддержки проектов</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Контейнеризация & Оркестрация</h3>
+                        <div class="tags">
+                            <span class="tag">Docker</span>
+                            <span class="tag">Docker Compose</span>
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">Podman</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Веб-серверы & Сети</h3>
+                        <div class="tags">
+                            <span class="tag">Nginx</span>
+                            <span class="tag">Caddy</span>
+                            <span class="tag">HAProxy</span>
+                            <span class="tag">TLS / SSL (Let's Encrypt)</span>
+                            <span class="tag">DNS / WireGuard</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Операционные системы</h3>
+                        <div class="tags">
+                            <span class="tag">Ubuntu Server</span>
+                            <span class="tag">Debian</span>
+                            <span class="tag">Alpine Linux</span>
+                            <span class="tag">Bash Automation</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Базы данных & Бэкенд</h3>
+                        <div class="tags">
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Redis</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Go</span>
+                            <span class="tag">REST API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Чем я могу помочь</h2>
+                    <p class="section-desc">Комплексные технические решения под ключ</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Настройка серверов и VPS</h3>
+                        <p>Базовая подготовка ОС, настройка безопасности (firewall, SSH по ключам, fail2ban), развертывание базового стека сервисов.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔒</div>
+                        <h3>SSL-сертификаты и проксирование</h3>
+                        <p>Настройка Nginx, выпуск и автопродление Let's Encrypt SSL, настройка защищенных обратных прокси (Reverse Proxy).</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📦</div>
+                        <h3>Контейнеризация в Docker</h3>
+                        <p>Упаковка приложений в Docker-контейнеры, написание multi-stage Dockerfile и файлов docker-compose для быстрого развертывания.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📈</div>
+                        <h3>Мониторинг и аудит</h3>
+                        <p>Проверка сетевой конфигурации, поиск узких мест в производительности и повышение устойчивости критических узлов.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-dark" id="contacts">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Контакты</h2>
+                    <p class="section-desc">Напишите мне для обсуждения вашего проекта или технической консультации</p>
+                </div>
+                <div class="contacts-wrapper">
+                    <div class="contacts-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">💬</div>
+                            <div>
+                                <h4>Telegram</h4>
+                                <p>Быстрая связь для вопросов и консультаций</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>Для подробных ТЗ и предложений о сотрудничестве</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🐙</div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>Открытый исходный код, скрипты и репозитории</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" required placeholder="Алексей">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Контакт для связи</label>
+                            <input type="text" id="email" required placeholder="@username или email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Описание задачи</label>
+                            <textarea id="message" rows="4" required placeholder="Расскажите в двух словах о вашем проекте..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Отправить сообщение</button>
+                        <div class="form-feedback" id="formFeedback"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; <span id="currentYear"></span> DevOps.Lab — Персональный сайт-визитка.</p>
+            <p class="footer-note">Развернуто в Docker с валидным SSL-сертификатом</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

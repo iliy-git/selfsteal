@@ -1,0 +1,4 @@
+.env
+nginx/conf.d/default.conf
+*.log
+.DS_Store
