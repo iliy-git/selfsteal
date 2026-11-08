@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevOps & Cloud Solutions | Персональная страница</title>
-    <meta name="description" content="Инженер облачной инфраструктуры, DevOps и разработка веб-решений. Проектирование надежных и отказоустойчивых систем.">
+    <title>КомарOff | Инновационная защита от комаров и клещей для дома и дачи</title>
+    <meta name="description" content="Официальный сайт КомарOff. Профессиональные средства от комаров, био-репелленты, умные уничтожители и обработка участков от насекомых.">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="navbar">
         <div class="container nav-container">
             <a href="#" class="brand">
-                <span class="brand-dot"></span>
-                <span class="brand-name">DevOps.Lab</span>
+                <span class="brand-icon">🛡️</span>
+                <span class="brand-name">Комар<span class="accent-brand">Off</span></span>
             </a>
             <nav class="nav-menu" id="navMenu">
-                <a href="#about" class="nav-link">Обо мне</a>
-                <a href="#skills" class="nav-link">Стек технологий</a>
-                <a href="#services" class="nav-link">Услуги</a>
-                <a href="#contacts" class="nav-link nav-cta">Связаться</a>
+                <a href="#catalog" class="nav-link">Каталог</a>
+                <a href="#services" class="nav-link">Обработка участков</a>
+                <a href="#advantages" class="nav-link">Преимущества</a>
+                <a href="#faq" class="nav-link">Вопросы и ответы</a>
+                <a href="#contact" class="nav-link nav-cta">Заказать звонок</a>
             </nav>
             <button class="nav-toggle" id="navToggle" aria-label="Меню">
                 <span></span>
@@ -29,175 +30,269 @@
     </header>
 
     <main>
-        <section class="hero" id="home">
+        <!-- Hero Section -->
+        <section class="hero">
             <div class="container hero-container">
                 <div class="hero-badge">
-                    <span class="status-indicator"></span>
-                    <span>Открыт к сотрудничеству & проектам</span>
+                    <span class="badge-dot"></span>
+                    <span>🌿 Эко-формула 2026: Без резкого запаха и химии</span>
                 </div>
                 <h1 class="hero-title">
-                    Проектирование надежной <br>
-                    <span class="gradient-text">облачной инфраструктуры</span>
+                    Надежная защита от комаров <br>
+                    <span class="gradient-text">для вашего дома, сада и отдыха</span>
                 </h1>
                 <p class="hero-subtitle">
-                    DevOps-инженер и Full-Stack разработчик. Помогаю бизнесу и стартапам запускать 
-                    отказоустойчивые серверные решения, автоматизировать CI/CD и оптимизировать сетевую архитектуру.
+                    Инновационные био-репелленты, фотокаталитические ловушки и профессиональная 
+                    дезинсекция участков. Безопасно для детей, домашних питомцев и растений.
                 </p>
                 <div class="hero-actions">
-                    <a href="#contacts" class="btn btn-primary">Обсудить задачу</a>
-                    <a href="#services" class="btn btn-secondary">Посмотреть услуги</a>
+                    <a href="#catalog" class="btn btn-primary">Выбрать средство</a>
+                    <a href="#services" class="btn btn-secondary">Заказать обработку дачи</a>
                 </div>
-            </div>
-        </section>
-
-        <section class="section" id="about">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Опыт и подход</h2>
-                    <p class="section-desc">Строю инфраструктуру, которая работает стабильно и масштабируется без простоев</p>
-                </div>
-                <div class="stats-grid">
-                    <div class="stat-card">
-                        <div class="stat-num">99.98%</div>
-                        <div class="stat-label">Целевой аптайм серверов</div>
+                <div class="hero-stats">
+                    <div class="h-stat">
+                        <strong>100%</strong>
+                        <span>Эффективность</span>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-num">5+ лет</div>
-                        <div class="stat-label">Опыта в администрировании Linux</div>
+                    <div class="h-stat-divider"></div>
+                    <div class="h-stat">
+                        <strong>до 12 ч.</strong>
+                        <span>Действие репеллента</span>
                     </div>
-                    <div class="stat-card">
-                        <div class="stat-num">24/7</div>
-                        <div class="stat-label">Мониторинг и защита сервисов</div>
+                    <div class="h-stat-divider"></div>
+                    <div class="h-stat">
+                        <strong>>15 000</strong>
+                        <span>Довольных клиентов</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section section-dark" id="skills">
+        <!-- Advantages Section -->
+        <section class="section section-light" id="advantages">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Технологический стек</h2>
-                    <p class="section-desc">Проверенные инструменты для сборки, развертывания и поддержки проектов</p>
+                    <span class="sub-header">Почему выбирают нас</span>
+                    <h2 class="section-title">Технологии комфортного лета без укусов</h2>
                 </div>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Контейнеризация & Оркестрация</h3>
-                        <div class="tags">
-                            <span class="tag">Docker</span>
-                            <span class="tag">Docker Compose</span>
-                            <span class="tag">Kubernetes</span>
-                            <span class="tag">Podman</span>
-                        </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🌿</div>
+                        <h3>Безопасный эко-состав</h3>
+                        <p>Натуральные эфирные масла и гипоаллергенные компоненты, одобренные дерматологами для детей от 1 года.</p>
                     </div>
-                    <div class="skill-category">
-                        <h3>Веб-серверы & Сети</h3>
-                        <div class="tags">
-                            <span class="tag">Nginx</span>
-                            <span class="tag">Caddy</span>
-                            <span class="tag">HAProxy</span>
-                            <span class="tag">TLS / SSL (Let's Encrypt)</span>
-                            <span class="tag">DNS / WireGuard</span>
-                        </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Мгновенный нокдаун-эффект</h3>
+                        <p>Препараты начинают блокировать рецепторы комаров и мошек уже через 30 секунд после распыления или включения.</p>
                     </div>
-                    <div class="skill-category">
-                        <h3>Операционные системы</h3>
-                        <div class="tags">
-                            <span class="tag">Ubuntu Server</span>
-                            <span class="tag">Debian</span>
-                            <span class="tag">Alpine Linux</span>
-                            <span class="tag">Bash Automation</span>
-                        </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🎯</div>
+                        <h3>Защита большой площади</h3>
+                        <p>Уличные уничтожители и генераторы тумана покрывают территорию до 25 соток без вреда для полезных пчёл и шмелей.</p>
                     </div>
-                    <div class="skill-category">
-                        <h3>Базы данных & Бэкенд</h3>
-                        <div class="tags">
-                            <span class="tag">PostgreSQL</span>
-                            <span class="tag">Redis</span>
-                            <span class="tag">Python</span>
-                            <span class="tag">Go</span>
-                            <span class="tag">REST API</span>
-                        </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Сертифицированное качество</h3>
+                        <p>Вся продукция прошла строгие лабораторные испытания и соответствует ГОСТ и европейским эко-стандартам.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section" id="services">
+        <!-- Catalog Section -->
+        <section class="section" id="catalog">
             <div class="container">
                 <div class="section-header">
-                    <h2 class="section-title">Чем я могу помочь</h2>
-                    <p class="section-desc">Комплексные технические решения под ключ</p>
+                    <span class="sub-header">Продукция</span>
+                    <h2 class="section-title">Популярные средства от комаров</h2>
+                    <p class="section-desc">Эффективные решения для квартиры, загородного коттеджа и походов</p>
                 </div>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon">⚡</div>
-                        <h3>Настройка серверов и VPS</h3>
-                        <p>Базовая подготовка ОС, настройка безопасности (firewall, SSH по ключам, fail2ban), развертывание базового стека сервисов.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">🔒</div>
-                        <h3>SSL-сертификаты и проксирование</h3>
-                        <p>Настройка Nginx, выпуск и автопродление Let's Encrypt SSL, настройка защищенных обратных прокси (Reverse Proxy).</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">📦</div>
-                        <h3>Контейнеризация в Docker</h3>
-                        <p>Упаковка приложений в Docker-контейнеры, написание multi-stage Dockerfile и файлов docker-compose для быстрого развертывания.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon">📈</div>
-                        <h3>Мониторинг и аудит</h3>
-                        <p>Проверка сетевой конфигурации, поиск узких мест в производительности и повышение устойчивости критических узлов.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section section-dark" id="contacts">
-            <div class="container">
-                <div class="section-header">
-                    <h2 class="section-title">Контакты</h2>
-                    <p class="section-desc">Напишите мне для обсуждения вашего проекта или технической консультации</p>
-                </div>
-                <div class="contacts-wrapper">
-                    <div class="contacts-info">
-                        <div class="contact-item">
-                            <div class="contact-icon">💬</div>
-                            <div>
-                                <h4>Telegram</h4>
-                                <p>Быстрая связь для вопросов и консультаций</p>
+                <div class="products-grid">
+                    <!-- Product 1 -->
+                    <div class="product-card">
+                        <div class="product-badge">Хит продаж</div>
+                        <div class="product-img-box">
+                            <span class="product-emoji">🧴</span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-cat">Спрей-репеллент</div>
+                            <h3>КомарOff Bio-Max Extreme</h3>
+                            <p class="product-desc">Усиленный спрей с маслом лимонного эвкалипта. До 10 часов защиты от комаров, слепней и клещей.</p>
+                            <div class="product-meta">
+                                <span class="product-volume">Объём: 150 мл</span>
+                                <span class="product-stock">В наличии</span>
                             </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">✉️</div>
-                            <div>
-                                <h4>Email</h4>
-                                <p>Для подробных ТЗ и предложений о сотрудничестве</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">🐙</div>
-                            <div>
-                                <h4>GitHub</h4>
-                                <p>Открытый исходный код, скрипты и репозитории</p>
+                            <div class="product-footer">
+                                <div class="product-price">790 ₽</div>
+                                <button class="btn btn-outline buy-btn" data-product="КомарOff Bio-Max Extreme">В корзину</button>
                             </div>
                         </div>
                     </div>
-                    <form class="contact-form" id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Ваше имя</label>
-                            <input type="text" id="name" required placeholder="Алексей">
+
+                    <!-- Product 2 -->
+                    <div class="product-card">
+                        <div class="product-badge badge-green">Новинка 2026</div>
+                        <div class="product-img-box">
+                            <span class="product-emoji">💡</span>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Контакт для связи</label>
-                            <input type="text" id="email" required placeholder="@username или email">
+                        <div class="product-body">
+                            <div class="product-cat">Умный фумигатор</div>
+                            <h3>MosqGuard Smart Home</h3>
+                            <p class="product-desc">Ультразвуковой бесшумный отпугиватель с таймером и мягкой ночной подсветкой. Площадь до 45 м².</p>
+                            <div class="product-meta">
+                                <span class="product-volume">Питание: Type-C / 220V</span>
+                                <span class="product-stock">В наличии</span>
+                            </div>
+                            <div class="product-footer">
+                                <div class="product-price">2 390 ₽</div>
+                                <button class="btn btn-outline buy-btn" data-product="MosqGuard Smart Home">В корзину</button>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="message">Описание задачи</label>
-                            <textarea id="message" rows="4" required placeholder="Расскажите в двух словах о вашем проекте..."></textarea>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="product-card">
+                        <div class="product-badge badge-gold">Для дачи & сада</div>
+                        <div class="product-img-box">
+                            <span class="product-emoji">🦟</span>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">Отправить сообщение</button>
-                        <div class="form-feedback" id="formFeedback"></div>
+                        <div class="product-body">
+                            <div class="product-cat">Уличная ловушка</div>
+                            <h3>КомарOff Trap Master 360</h3>
+                            <p class="product-desc">Профессиональная CO2 + УФ ловушка-уничтожитель комаров. Радиус действия до 20 соток. Влагозащита IPX6.</p>
+                            <div class="product-meta">
+                                <span class="product-volume">Радиус: 35 метров</span>
+                                <span class="product-stock">В наличии</span>
+                            </div>
+                            <div class="product-footer">
+                                <div class="product-price">5 890 ₽</div>
+                                <button class="btn btn-outline buy-btn" data-product="КомарOff Trap Master 360">В корзину</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section section-light" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-header">Услуги дезинсекции</span>
+                    <h2 class="section-title">Профессиональная обработка участков от комаров</h2>
+                    <p class="section-desc">Выезд специалистов с генераторами холодного и горячего тумана в день обращения</p>
+                </div>
+                <div class="services-wrapper">
+                    <div class="service-box">
+                        <div class="s-head">
+                            <h3>Обработка «Стандарт»</h3>
+                            <div class="s-price">от 3 500 ₽ <span>/ участок до 6 соток</span></div>
+                        </div>
+                        <ul class="s-features">
+                            <li>✓ Обработка периметра холодным туманом</li>
+                            <li>✓ Уничтожение взрослых особей комаров и мошек</li>
+                            <li>✓ Барьерная защита на 30–45 дней</li>
+                            <li>✓ Безопасно для растений и газона</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-full">Заказать выезд</a>
+                    </div>
+
+                    <div class="service-box featured-service">
+                        <div class="service-flag">Популярный выбор</div>
+                        <div class="s-head">
+                            <h3>Комплекс «Лето без комаров»</h3>
+                            <div class="s-price">от 5 900 ₽ <span>/ до 15 соток</span></div>
+                        </div>
+                        <ul class="s-features">
+                            <li>✓ Двойная обработка: холодный + горячий туман</li>
+                            <li>✓ Уничтожение личинок в водоёмах и траве</li>
+                            <li>✓ Защита от клещей, комаров и ос</li>
+                            <li>✓ Официальная гарантия на весь сезон</li>
+                            <li>✓ Бесплатный контрольный осмотр через 2 недели</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-full">Заказать со скидкой 15%</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <span class="sub-header">Частые вопросы</span>
+                    <h2 class="section-title">Всё, что нужно знать о защите от насекомых</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>Безопасны ли средства для домашних животных?</summary>
+                        <p>Да. В составе наших спреев и препаратов для обработки используются био-пиретроиды и растительные экстракты. После высыхания (30-40 минут) собаки и кошки могут спокойно гулять по участку.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Что делать, если пойдет дождь после обработки участка?</summary>
+                        <p>Препараты содержат микрокапсулированные связующие вещества, которые кристаллизуются на листьях и коре в течение 1 часа. Обычный дождь не смывает действующее вещество.</p>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Как быстро доставляются товары из каталога?</summary>
+                        <p>Доставка по городу курьером осуществляется в день заказа или на следующий рабочий день. Также отправляем через СДЭК и Почту РФ в любой регион.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / Order Section -->
+        <section class="section section-light" id="contact">
+            <div class="container">
+                <div class="contact-box">
+                    <div class="contact-left">
+                        <span class="sub-header">Свяжитесь с нами</span>
+                        <h2>Получите консультацию и расчет защиты</h2>
+                        <p>Оставьте номер телефона, и наш специалист по дезинсекции свяжется с вами в течение 10 минут, ответит на вопросы и подберёт идеальное решение.</p>
+                        <div class="c-info-items">
+                            <div class="c-item">
+                                <span class="c-icon">📞</span>
+                                <div>
+                                    <strong>Горячая линия:</strong>
+                                    <span>+7 (800) 555-35-88 (бесплатно по РФ)</span>
+                                </div>
+                            </div>
+                            <div class="c-item">
+                                <span class="c-icon">🕒</span>
+                                <div>
+                                    <strong>Режим работы:</strong>
+                                    <span>Ежедневно с 8:00 до 21:00</span>
+                                </div>
+                            </div>
+                            <div class="c-item">
+                                <span class="c-icon">✉️</span>
+                                <div>
+                                    <strong>Email для заказов:</strong>
+                                    <span>order@komaroff-protect.ru</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="c-form" id="leadForm">
+                        <h3>Заявка на консультацию</h3>
+                        <div class="f-group">
+                            <label for="clientName">Ваше имя</label>
+                            <input type="text" id="clientName" required placeholder="Иван">
+                        </div>
+                        <div class="f-group">
+                            <label for="clientPhone">Номер телефона</label>
+                            <input type="tel" id="clientPhone" required placeholder="+7 (999) 000-00-00">
+                        </div>
+                        <div class="f-group">
+                            <label for="serviceType">Интересует:</label>
+                            <select id="serviceType">
+                                <option value="products">Купить средство / ловушку</option>
+                                <option value="treatment">Обработка загородного участка</option>
+                                <option value="wholesale">Оптовые поставки</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
+                        <div class="form-result" id="formResult"></div>
                     </form>
                 </div>
             </div>
@@ -205,9 +300,32 @@
     </main>
 
     <footer class="footer">
-        <div class="container footer-container">
-            <p>&copy; <span id="currentYear"></span> DevOps.Lab — Персональный сайт-визитка.</p>
-            <p class="footer-note">Развернуто в Docker с валидным SSL-сертификатом</p>
+        <div class="container footer-content">
+            <div class="f-brand">
+                <div class="brand">
+                    <span class="brand-icon">🛡️</span>
+                    <span class="brand-name">Комар<span class="accent-brand">Off</span></span>
+                </div>
+                <p>Производство и продажа экологических систем защиты от комаров, мошек и клещей.</p>
+            </div>
+            <div class="f-links">
+                <h4>Разделы</h4>
+                <a href="#catalog">Каталог средств</a>
+                <a href="#services">Обработка участков</a>
+                <a href="#advantages">О технологии</a>
+            </div>
+            <div class="f-links">
+                <h4>Документы</h4>
+                <a href="#">Сертификаты качества</a>
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Условия доставки</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container f-bot-container">
+                <p>&copy; <span id="year"></span> ООО «КомарОфф Защита». Все права защищены.</p>
+                <p>ОГРН 1197746523910 | ИНН 7724819034</p>
+            </div>
         </div>
     </footer>
 
