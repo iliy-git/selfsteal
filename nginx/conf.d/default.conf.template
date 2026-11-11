@@ -1,3 +1,18 @@
+# HTTP - Перенаправление на HTTPS и поддержка продления Let's Encrypt
+server {
+    listen 80;
+    server_name ${DOMAIN} localhost;
+
+    location /.well-known/acme-challenge/ {
+        root /var/www/certbot;
+    }
+
+    location / {
+        return 301 https://$host$request_uri;
+    }
+}
+
+# HTTPS - Полноценный сайт с валидным SSL Let's Encrypt
 server {
     listen 443 ssl;
     http2 on;

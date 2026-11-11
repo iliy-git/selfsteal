@@ -54,3 +54,4 @@ chmod +x setup.sh install.sh scripts/configure_xui.py 2>/dev/null || true
 
 echo -e "${GREEN}[✓] Запуск мастера установки setup.sh...${NC}\n"
 exec ./setup.sh "$@"
+
